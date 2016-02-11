@@ -1,13 +1,43 @@
 /*body structure*/
-body {max-width: 900px;}
+body {
+  max-width: 900px;
+}
 
 
 /*Navigation*/
-nav {display: inline-block; background-color: white; border-right: 1px solid lightgray; max-width: 250px;  padding: 30px 0; width: 25%; float: left;}
-nav li {border-bottom: 1px solid lightgray; height: auto; list-style: none; padding: 12px 0; text-align: left;}
-nav li a {text-decoration: none; color: gray; padding-right: 30px;width: 200px;}
-ul {padding: 45px 40px 30px 15px;}
-.logo {height: 160px;}
+nav {
+  display: inline-block; 
+  background-color: white; 
+  border-right: 1px solid lightgray; 
+  max-width: 250px;  
+  padding: 30px 0; 
+  width: 25%; 
+  float: left;
+}
+nav li {
+  border-bottom: 1px solid lightgray; 
+  height: auto; 
+  list-style: none; 
+  padding: 12px 0; 
+  text-align: left;
+}
+nav li a {
+  text-decoration: none; 
+  color: gray; 
+  padding-right: 30px;
+  width: 200px;
+  
+}
+ul {
+  padding: 45px 40px 30px 15px;
+}
+.logo {
+  height: 160px;
+}
 
 /*Main*/
-main {display: inline-block; width: 70%; float: right;}
+main {
+  display: inline-block; 
+  width: 70%;
+  float: right;
+}
